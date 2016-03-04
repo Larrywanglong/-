@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B92C3A78C9A4B576EDDAD06 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA651C7031E6110F55A848A0 /* libPods.a */; };
 		FE36D9131C8543D800A4C931 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36D9121C8543D800A4C931 /* main.m */; };
 		FE36D9161C8543D800A4C931 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36D9151C8543D800A4C931 /* AppDelegate.m */; };
 		FE36D9191C8543D800A4C931 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36D9181C8543D800A4C931 /* ViewController.m */; };
@@ -16,6 +17,19 @@
 		FE36D9241C8543D800A4C931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE36D9221C8543D800A4C931 /* LaunchScreen.storyboard */; };
 		FE36D92F1C8543D800A4C931 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36D92E1C8543D800A4C931 /* ____Tests.m */; };
 		FE36D93A1C8543D800A4C931 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36D9391C8543D800A4C931 /* ____UITests.m */; };
+		FE36D98B1C856C7500A4C931 /* HTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36D98A1C856C7500A4C931 /* HTTPManager.m */; };
+		FE36D98E1C858A4200A4C931 /* AQIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36D98D1C858A4200A4C931 /* AQIModel.m */; };
+		FE36D9911C858A7300A4C931 /* BasicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36D9901C858A7300A4C931 /* BasicModel.m */; };
+		FE36D9941C858A9800A4C931 /* Daily_forecastModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36D9931C858A9800A4C931 /* Daily_forecastModel.m */; };
+		FE36D9971C858AAE00A4C931 /* Hourly_forecastModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36D9961C858AAE00A4C931 /* Hourly_forecastModel.m */; };
+		FE36D99A1C858AC500A4C931 /* NowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36D9991C858AC500A4C931 /* NowModel.m */; };
+		FE36D99D1C858AD900A4C931 /* SuggestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36D99C1C858AD900A4C931 /* SuggestionModel.m */; };
+		FE36D9A01C85918D00A4C931 /* UpdateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36D99F1C85918D00A4C931 /* UpdateModel.m */; };
+		FE36D9A31C85970A00A4C931 /* CondModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36D9A21C85970A00A4C931 /* CondModel.m */; };
+		FE36D9A81C8597B600A4C931 /* TmpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36D9A71C8597B600A4C931 /* TmpModel.m */; };
+		FE36D9AB1C8597EF00A4C931 /* WindModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36D9AA1C8597EF00A4C931 /* WindModel.m */; };
+		FE36D9AF1C859C2B00A4C931 /* BaseForceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36D9AE1C859C2B00A4C931 /* BaseForceModel.m */; };
+		FE36D9B21C85AC5900A4C931 /* NewCondModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36D9B11C85AC5900A4C931 /* NewCondModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7EA8867BAAF6F8F0D324BBD2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CA651C7031E6110F55A848A0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE36D90E1C8543D800A4C931 /* 天气预报.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "天气预报.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE36D9121C8543D800A4C931 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE36D9141C8543D800A4C931 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +69,33 @@
 		FE36D9351C8543D800A4C931 /* 天气预报UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "天气预报UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE36D9391C8543D800A4C931 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		FE36D93B1C8543D800A4C931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE36D9891C856C7500A4C931 /* HTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPManager.h; sourceTree = "<group>"; };
+		FE36D98A1C856C7500A4C931 /* HTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPManager.m; sourceTree = "<group>"; };
+		FE36D98C1C858A4200A4C931 /* AQIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQIModel.h; sourceTree = "<group>"; };
+		FE36D98D1C858A4200A4C931 /* AQIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQIModel.m; sourceTree = "<group>"; };
+		FE36D98F1C858A7300A4C931 /* BasicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicModel.h; path = "天气预报/BasicModel.h"; sourceTree = SOURCE_ROOT; };
+		FE36D9901C858A7300A4C931 /* BasicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicModel.m; path = "天气预报/BasicModel.m"; sourceTree = SOURCE_ROOT; };
+		FE36D9921C858A9800A4C931 /* Daily_forecastModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Daily_forecastModel.h; path = "天气预报/Daily_forecastModel.h"; sourceTree = SOURCE_ROOT; };
+		FE36D9931C858A9800A4C931 /* Daily_forecastModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Daily_forecastModel.m; path = "天气预报/Daily_forecastModel.m"; sourceTree = SOURCE_ROOT; };
+		FE36D9951C858AAE00A4C931 /* Hourly_forecastModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hourly_forecastModel.h; sourceTree = "<group>"; };
+		FE36D9961C858AAE00A4C931 /* Hourly_forecastModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hourly_forecastModel.m; sourceTree = "<group>"; };
+		FE36D9981C858AC500A4C931 /* NowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NowModel.h; sourceTree = "<group>"; };
+		FE36D9991C858AC500A4C931 /* NowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NowModel.m; sourceTree = "<group>"; };
+		FE36D99B1C858AD900A4C931 /* SuggestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestionModel.h; sourceTree = "<group>"; };
+		FE36D99C1C858AD900A4C931 /* SuggestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestionModel.m; sourceTree = "<group>"; };
+		FE36D99E1C85918D00A4C931 /* UpdateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpdateModel.h; path = ../UpdateModel.h; sourceTree = "<group>"; };
+		FE36D99F1C85918D00A4C931 /* UpdateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpdateModel.m; path = ../UpdateModel.m; sourceTree = "<group>"; };
+		FE36D9A11C85970A00A4C931 /* CondModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CondModel.h; path = ../CondModel.h; sourceTree = "<group>"; };
+		FE36D9A21C85970A00A4C931 /* CondModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CondModel.m; path = ../CondModel.m; sourceTree = "<group>"; };
+		FE36D9A61C8597B600A4C931 /* TmpModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TmpModel.h; sourceTree = "<group>"; };
+		FE36D9A71C8597B600A4C931 /* TmpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TmpModel.m; sourceTree = "<group>"; };
+		FE36D9A91C8597EF00A4C931 /* WindModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindModel.h; sourceTree = "<group>"; };
+		FE36D9AA1C8597EF00A4C931 /* WindModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindModel.m; sourceTree = "<group>"; };
+		FE36D9AD1C859C2B00A4C931 /* BaseForceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseForceModel.h; sourceTree = "<group>"; };
+		FE36D9AE1C859C2B00A4C931 /* BaseForceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseForceModel.m; sourceTree = "<group>"; };
+		FE36D9B01C85AC5900A4C931 /* NewCondModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCondModel.h; sourceTree = "<group>"; };
+		FE36D9B11C85AC5900A4C931 /* NewCondModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCondModel.m; sourceTree = "<group>"; };
+		FF6DF11B1CE043633549FAAD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B92C3A78C9A4B576EDDAD06 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +124,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1877F9CF804D8DB102253748 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EA8867BAAF6F8F0D324BBD2 /* Pods.debug.xcconfig */,
+				FF6DF11B1CE043633549FAAD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1CBA9D1439E5200FD65A0FC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA651C7031E6110F55A848A0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FE36D9051C8543D700A4C931 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +148,8 @@
 				FE36D92D1C8543D800A4C931 /* 天气预报Tests */,
 				FE36D9381C8543D800A4C931 /* 天气预报UITests */,
 				FE36D90F1C8543D800A4C931 /* Products */,
+				1877F9CF804D8DB102253748 /* Pods */,
+				1CBA9D1439E5200FD65A0FC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +170,21 @@
 				FE36D9151C8543D800A4C931 /* AppDelegate.m */,
 				FE36D9171C8543D800A4C931 /* ViewController.h */,
 				FE36D9181C8543D800A4C931 /* ViewController.m */,
+				FE36D9891C856C7500A4C931 /* HTTPManager.h */,
+				FE36D98A1C856C7500A4C931 /* HTTPManager.m */,
+				FE36D98C1C858A4200A4C931 /* AQIModel.h */,
+				FE36D98D1C858A4200A4C931 /* AQIModel.m */,
+				FE36D9AC1C859C1400A4C931 /* Base */,
+				FE36D9A41C85972000A4C931 /* Basic */,
+				FE36D9A51C85973A00A4C931 /* Daily_forecastModel */,
+				FE36D9951C858AAE00A4C931 /* Hourly_forecastModel.h */,
+				FE36D9961C858AAE00A4C931 /* Hourly_forecastModel.m */,
+				FE36D9981C858AC500A4C931 /* NowModel.h */,
+				FE36D9991C858AC500A4C931 /* NowModel.m */,
+				FE36D9B01C85AC5900A4C931 /* NewCondModel.h */,
+				FE36D9B11C85AC5900A4C931 /* NewCondModel.m */,
+				FE36D99B1C858AD900A4C931 /* SuggestionModel.h */,
+				FE36D99C1C858AD900A4C931 /* SuggestionModel.m */,
 				FE36D91A1C8543D800A4C931 /* Main.storyboard */,
 				FE36D9201C8543D800A4C931 /* Assets.xcassets */,
 				FE36D9221C8543D800A4C931 /* LaunchScreen.storyboard */,
@@ -143,6 +221,41 @@
 			path = "天气预报UITests";
 			sourceTree = "<group>";
 		};
+		FE36D9A41C85972000A4C931 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				FE36D98F1C858A7300A4C931 /* BasicModel.h */,
+				FE36D9901C858A7300A4C931 /* BasicModel.m */,
+				FE36D99E1C85918D00A4C931 /* UpdateModel.h */,
+				FE36D99F1C85918D00A4C931 /* UpdateModel.m */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		FE36D9A51C85973A00A4C931 /* Daily_forecastModel */ = {
+			isa = PBXGroup;
+			children = (
+				FE36D9921C858A9800A4C931 /* Daily_forecastModel.h */,
+				FE36D9931C858A9800A4C931 /* Daily_forecastModel.m */,
+				FE36D9A11C85970A00A4C931 /* CondModel.h */,
+				FE36D9A21C85970A00A4C931 /* CondModel.m */,
+				FE36D9A61C8597B600A4C931 /* TmpModel.h */,
+				FE36D9A71C8597B600A4C931 /* TmpModel.m */,
+				FE36D9A91C8597EF00A4C931 /* WindModel.h */,
+				FE36D9AA1C8597EF00A4C931 /* WindModel.m */,
+			);
+			path = Daily_forecastModel;
+			sourceTree = "<group>";
+		};
+		FE36D9AC1C859C1400A4C931 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FE36D9AD1C859C2B00A4C931 /* BaseForceModel.h */,
+				FE36D9AE1C859C2B00A4C931 /* BaseForceModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE36D93E1C8543D800A4C931 /* Build configuration list for PBXNativeTarget "天气预报" */;
 			buildPhases = (
+				BB731F7DE62CB77CED69EC1F /* Check Pods Manifest.lock */,
 				FE36D90A1C8543D800A4C931 /* Sources */,
 				FE36D90B1C8543D800A4C931 /* Frameworks */,
 				FE36D90C1C8543D800A4C931 /* Resources */,
+				5A172A4520E61D6A4C2FA367 /* Embed Pods Frameworks */,
+				90E3E66FF8F0594D791C391A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,14 +384,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A172A4520E61D6A4C2FA367 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90E3E66FF8F0594D791C391A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB731F7DE62CB77CED69EC1F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE36D90A1C8543D800A4C931 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE36D98B1C856C7500A4C931 /* HTTPManager.m in Sources */,
+				FE36D9971C858AAE00A4C931 /* Hourly_forecastModel.m in Sources */,
+				FE36D98E1C858A4200A4C931 /* AQIModel.m in Sources */,
+				FE36D9AB1C8597EF00A4C931 /* WindModel.m in Sources */,
+				FE36D9941C858A9800A4C931 /* Daily_forecastModel.m in Sources */,
+				FE36D99A1C858AC500A4C931 /* NowModel.m in Sources */,
+				FE36D9AF1C859C2B00A4C931 /* BaseForceModel.m in Sources */,
+				FE36D9911C858A7300A4C931 /* BasicModel.m in Sources */,
 				FE36D9191C8543D800A4C931 /* ViewController.m in Sources */,
+				FE36D9A81C8597B600A4C931 /* TmpModel.m in Sources */,
+				FE36D9A31C85970A00A4C931 /* CondModel.m in Sources */,
+				FE36D9B21C85AC5900A4C931 /* NewCondModel.m in Sources */,
 				FE36D91F1C8543D800A4C931 /* ____.xcdatamodeld in Sources */,
+				FE36D9A01C85918D00A4C931 /* UpdateModel.m in Sources */,
 				FE36D9161C8543D800A4C931 /* AppDelegate.m in Sources */,
+				FE36D99D1C858AD900A4C931 /* SuggestionModel.m in Sources */,
 				FE36D9131C8543D800A4C931 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +590,7 @@
 		};
 		FE36D93F1C8543D800A4C931 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA8867BAAF6F8F0D324BBD2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "天气预报/Info.plist";
@@ -424,6 +602,7 @@
 		};
 		FE36D9401C8543D800A4C931 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF6DF11B1CE043633549FAAD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "天气预报/Info.plist";
@@ -500,6 +679,7 @@
 				FE36D9401C8543D800A4C931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE36D9411C8543D800A4C931 /* Build configuration list for PBXNativeTarget "天气预报Tests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +688,7 @@
 				FE36D9431C8543D800A4C931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE36D9441C8543D800A4C931 /* Build configuration list for PBXNativeTarget "天气预报UITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +697,7 @@
 				FE36D9461C8543D800A4C931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
